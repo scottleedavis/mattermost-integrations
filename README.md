@@ -34,13 +34,13 @@ git submodule update --remote
   * `./mvnw  package`
 * Building for tomcat
   * [Packaging as a .war](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#build-tool-plugins-maven-packaging)
-* Build [Docker](https://www.docker.com/) Image (Optional)
-  * `cd application; ../mvnw install dockerfile:build`
+* ~~Build [Docker](https://www.docker.com/) Image (Optional)~~
+  * ~~`./mvnw install dockerfile:build`~~
 
 ### execution
 * Running via java
   * `java -jar application/target/mattermost-integrations-app-#.#.#.jar`
-* Running via docker (Optional)
-  * Using a locally built version `docker run -p 8080:8080 -t scottleedavis/mattermost-integrations`
-  * Using [dockerhub latest image](https://hub.docker.com/r/scottleedavis/mattermost-integrations/): `docker run scottleedavis/mattermost-remind`
+* ~~Running via docker (Optional)~~
+  * ~~Using a locally built version `docker run -p 8080:8080 -t scottleedavis/mattermost-integrations`~~
+  * ~~Using [dockerhub latest image](https://hub.docker.com/r/scottleedavis/mattermost-integrations/): `docker run scottleedavis/mattermost-integrations`~~
 
