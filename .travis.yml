@@ -2,14 +2,14 @@ language: java
 jdk: oraclejdk8
 
 # disable the default submodule logic
-#git:
-#  submodules: false
+git:
+  submodules: false
 
 # use sed to replace the SSH URL with the public URL, then init and update submodules
 before_install:
   - chmod +x mvnw
 #  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
-#  - git submodule update --init --recursive
+  - git submodule update --init --recursive
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
