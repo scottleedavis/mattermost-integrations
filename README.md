@@ -28,7 +28,7 @@ git submodule update --remote
 * Building for tomcat
   * [Packaging as a .war](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#build-tool-plugins-maven-packaging)
 * Build [Docker](https://www.docker.com/) Image (Optional)
-  * `cd application; ./mvnw install dockerfile:build`
+  * `./mvnw install dockerfile:build`
 
 ### execution
 * Running via java
