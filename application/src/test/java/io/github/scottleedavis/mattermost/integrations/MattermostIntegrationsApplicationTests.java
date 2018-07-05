@@ -1,4 +1,4 @@
-package io.github.scottleedavis.mattermostintegrations;
+package io.github.scottleedavis.mattermost.integrations;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
