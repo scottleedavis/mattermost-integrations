@@ -1,8 +1,0 @@
-[submodule "mattermost-remind"]
-	path = mattermost-remind
-	url = https://github.com:scottleedavis/mattermost-remind.git
-	branch = master
-[submodule "mattermost-slashjira"]
-	path = mattermost-slashjira
-	url = https://github.com:scottleedavis/mattermost-slashjira.git
-	branch = master
