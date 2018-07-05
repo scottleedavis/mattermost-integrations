@@ -7,9 +7,10 @@ git:
 
 # use sed to replace the SSH URL with the public URL, then init and update submodules
 before_install:
-  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
   - chmod +x mvnw
-
+  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  - git submodule update --init --recursive
+  
 after_success:
   - bash <(curl -s https://codecov.io/bash)
 
