@@ -1,4 +1,5 @@
-# mattermost-integrations
+# mattermost-integrations [![Build Status](https://travis-ci.org/scottleedavis/mattermost-integrations.svg?branch=master)](https://travis-ci.org/scottleedavis/mattermost-integrations) [![codecov](https://codecov.io/gh/scottleedavis/mattermost-integrations/branch/master/graph/badge.svg)](https://codecov.io/gh/scottleedavis/mattermost-integrations)
+ 
 
 ### Modules
 * ~~[mattermost-remind](https://github.com/scottleedavis/mattermost-remind)~~ __under contruction.   soon completed__
@@ -26,7 +27,13 @@ git submodule update --remote
   * `./mvnw  package`
 * Building for tomcat
   * [Packaging as a .war](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#build-tool-plugins-maven-packaging)
+* Build [Docker](https://www.docker.com/) Image (Optional)
+  * `cd application; ../mvnw install dockerfile:build`
 
 ### execution
 * Running via java
   * `java -jar application/target/mattermost-integrations-app-#.#.#.jar`
+* Running via docker (Optional)
+  * Using a locally built version `docker run -p 8080:8080 -t scottleedavis/mattermost-integrations`
+  * Using [dockerhub latest image](https://hub.docker.com/r/scottleedavis/mattermost-integrations/): `docker run scottleedavis/mattermost-remind`
+
