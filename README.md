@@ -29,4 +29,4 @@ git submodule update --remote
 
 ### execution
 * Running via java
-  * `java -jar application/target/mattermost-integrations-#.#.#.jar`
+  * `java -jar application/target/mattermost-integrations-app-#.#.#.jar`
