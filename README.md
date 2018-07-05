@@ -2,7 +2,7 @@
  
 
 ### Modules
-* ~~[mattermost-remind](https://github.com/scottleedavis/mattermost-remind)~~ __under contruction.   soon completed__
+* [mattermost-remind](https://github.com/scottleedavis/mattermost-remind) __under contruction.   soon completed__
 * [mattermost-slashjira](https://github.com/scottleedavis/mattermost-slashjira)
 
 ### configuration
