@@ -1,4 +1,4 @@
-# mattermost-integrations [![Build Status](https://travis-ci.org/scottleedavis/mattermost-integrations.svg?branch=master)](https://travis-ci.org/scottleedavis/mattermost-integrations) [![codecov](https://codecov.io/gh/scottleedavis/mattermost-integrations/branch/master/graph/badge.svg)](https://codecov.io/gh/scottleedavis/mattermost-integrations)
+# mattermost-integrations [![Build Status](https://travis-ci.org/scottleedavis/mattermost-integrations.svg?branch=master)](https://travis-ci.org/scottleedavis/mattermost-integrations) [![codecov](https://codecov.io/gh/scottleedavis/mattermost-integrations/branch/master/graph/badge.svg)](https://codecov.io/gh/scottleedavis/mattermost-integrations) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/90f8ebf1d6fa4e469899a296ede1f467)](https://www.codacy.com/app/scottleedavis/mattermost-integrations?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=scottleedavis/mattermost-integrations&amp;utm_campaign=Badge_Grade)
  
 
 ### Modules
