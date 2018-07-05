@@ -47,11 +47,11 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!--<dependency>-->
-            <!--<groupId>io.github.scottleedavis</groupId>-->
-            <!--<artifactId>mattermost-remind-library</artifactId>-->
-            <!--<version>${project.version}</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>io.github.scottleedavis</groupId>
+            <artifactId>mattermost-remind-library</artifactId>
+            <version>${project.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>io.github.scottleedavis</groupId>

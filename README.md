@@ -8,6 +8,13 @@
 ### configuration
 [application.properties](./application/src/resources/application.properites)
 ```aidl
+remind.SlashCommandToken=REMID_SLASH_COMMAND_TOKEN
+remind.webhookUrl=http:REMIND_WEBHOOK
+spring.datasource.username=sa
+spring.datasource.password=
+spring.datasource.url=jdbc:h2:mem:mm-remind
+spring.datasource.driver-class-name=org.h2.Driver
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.H2Dialect
 jira.slashCommandToken=JIRA_SLASH_COMMAND_TOKEN
 jira.username=USERNAME
 jira.password=JIRA_USER_PASSWORD
