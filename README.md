@@ -29,6 +29,10 @@ git submodule init
 git submodule update --remote
 ```
 
+Update the submodules
+```
+git submodule update --remote
+```
 ### build
 * Build: [Maven](https://maven.apache.org/download.cgi) & [Java8](http://openjdk.java.net/install/)
   * `./mvnw  package`
@@ -39,7 +43,13 @@ git submodule update --remote
 
 ### execution
 * Running via java
-  * `java -jar application/target/mattermost-integrations-app-#.#.#.jar`
+```bash
+export REMIND_SLASH_TOKEN="7q61n4m5mfbebpme4ga5nu1gdh"
+export REMIND_WEBHOOK_URL="http://127.0.0.1:8065/hooks/jqg3bkxbip8hzgsrsnzep5jqyc"
+
+java -jar application/target/mattermost-integrations-app-0.0.3.jar
+```
+
 * ~~Running via docker (Optional)~~
   * ~~Using a locally built version `docker run -p 8080:8080 -t scottleedavis/mattermost-integrations`~~
   * ~~Using [dockerhub latest image](https://hub.docker.com/r/scottleedavis/mattermost-integrations/): `docker run scottleedavis/mattermost-integrations`~~
