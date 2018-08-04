@@ -23,7 +23,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <docker.image.prefix>scottleedavis</docker.image.prefix>
-        <remind.version>0.0.2</remind.version>
+        <remind.version>0.0.3</remind.version>
         <slashjira.version>0.0.1</slashjira.version>
     </properties>
 
