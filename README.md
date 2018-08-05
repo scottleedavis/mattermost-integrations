@@ -8,8 +8,9 @@
 ### configuration
 [application.properties](./application/src/resources/application.properites)
 ```aidl
-remind.SlashCommandToken=REMID_SLASH_COMMAND_TOKEN
-remind.webhookUrl=http:REMIND_WEBHOOK
+remind.SlashCommandToken=${REMIND_SLASH_TOKEN:#{null}}
+remind.webhookUrl=${REMIND_WEBHOOK_URL:#{null}}
+remind.remindUserId=${REMIND_USER:#{null}}
 spring.datasource.username=sa
 spring.datasource.password=
 spring.datasource.url=jdbc:h2:mem:mm-remind
@@ -44,10 +45,11 @@ git submodule update --remote
 ### execution
 * Running via java
 ```bash
+export REMIND_USER="5okns4uk9ffauy16q8rkhe9zjc"
 export REMIND_SLASH_TOKEN="7q61n4m5mfbebpme4ga5nu1gdh"
 export REMIND_WEBHOOK_URL="http://127.0.0.1:8065/hooks/jqg3bkxbip8hzgsrsnzep5jqyc"
 
-java -jar application/target/mattermost-integrations-app-0.0.3.jar
+java -jar application/target/mattermost-integrations-app-0.0.4.jar
 ```
 
 * ~~Running via docker (Optional)~~
