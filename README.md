@@ -24,23 +24,19 @@ jira.url=JIRA_URL
 
 ### setup
 
-Install the submodules
+Init the submodules
 ```
 git submodule init
-git submodule update --remote
 ```
 
 Update the submodules
 ```
 git submodule update --remote
 ```
+
 ### build
 * Build: [Maven](https://maven.apache.org/download.cgi) & [Java8](http://openjdk.java.net/install/)
   * `./mvnw  package`
-* Building for tomcat
-  * [Packaging as a .war](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#build-tool-plugins-maven-packaging)
-* ~~Build [Docker](https://www.docker.com/) Image (Optional)~~
-  * ~~`./mvnw install dockerfile:build`~~
 
 ### execution
 * Running via java
@@ -51,8 +47,4 @@ export REMIND_WEBHOOK_URL="http://127.0.0.1:8065/hooks/jqg3bkxbip8hzgsrsnzep5jqy
 
 java -jar application/target/mattermost-integrations-app-0.0.4.jar
 ```
-
-* ~~Running via docker (Optional)~~
-  * ~~Using a locally built version `docker run -p 8080:8080 -t scottleedavis/mattermost-integrations`~~
-  * ~~Using [dockerhub latest image](https://hub.docker.com/r/scottleedavis/mattermost-integrations/): `docker run scottleedavis/mattermost-integrations`~~
 
